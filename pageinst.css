@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+body {
+    background-image: url('wallpapaerh.jpg'); /* A url da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-attachment: fixed; /* O ponto-chave! Fixa a imagem no viewport */
+}
+
+/* O restante do seu CSS pode permanecer o mesmo para estilizar o formulário */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contg{
+    position: relative;
+    width: 400px;
+    margin: 50px auto;
+    height: 500px;
+    padding: 0;
+    align-items: center;
+    background-color: #000000d0;
+    border-radius: 50px;
+    text-align: center;
+    border-color: #ffc400;
+    border: 1px solid #ffffff;
+}
+
+
+.container {
+    max-width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 3px solid #00000000;
+    border-radius: 20px;
+    background-color: #0692e2;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.imagem {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 300px;
+    height: auto;
+}
+.botao {
+    background-color: #191e46;
+    position: relative;
+    top: 150px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.username {
+    font-weight: bold;
+    color: #010301;
+    position: absolute;
+    left: calc(35%);
+    top: 30px;
+}
+.password {
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    left: calc(35%);
+    top: 130px;
+}
+#username {
+    position: relative;
+    top: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+#password {
+    position: relative;
+    top: 100px;
+    height: 40px;
+    border-radius: 20px;
+
+}
